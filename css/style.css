@@ -242,6 +242,9 @@ h3.clr4{
   height: 350px;
   border: none;
 }
+.social span {
+  padding-right: 1em;
+}
 /*--responsive--*/
 @media (max-width: 1366px){
 .sidebar h1 {
@@ -342,6 +345,7 @@ address span {
 .details{
 	width:30%;
 	float:right;
+  margin-top: 0em;
 }
 }
 @media (max-width: 640px){
@@ -360,6 +364,7 @@ address span {
 .details{
 	width:30%;
 	float:right;
+  margin-top:0em;
 }
 .sidebar img{
 	width:100%;
@@ -403,6 +408,7 @@ address {
 }
 .details {
   width: 36%;
+  margin-top:0em;
 }
 .sidebar h1 {
   font-size: 1.3em;
