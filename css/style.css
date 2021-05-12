@@ -85,7 +85,7 @@ address span{
 .glyphicon {
   top:1px;
 }
-.glyphicon-file:before,.glyphicon-pencil:before,.glyphicon-envelope:before,.glyphicon-picture:before{
+.glyphicon-file:before,.glyphicon-pencil:before,.glyphicon-home::before,.glyphicon-envelope:before,.glyphicon-picture:before{
     margin-right: 9px;
   font-size: 14px;
   color: #6ecadc;
@@ -188,6 +188,9 @@ h3.clr3{
 }
 h3.clr4{
   background:#e9a820;
+}
+h3.clr5{
+  background:#e08367;
 }
 .copywrite{
 	padding-left:2em;
@@ -398,7 +401,7 @@ address {
 .content {
   margin-right: 2em;
 }
-.glyphicon-save:before, .glyphicon-pencil:before, .glyphicon-envelope:before, .glyphicon-picture:before {
+.glyphicon-save:before, .glyphicon-pencil:before, .glyphicon-home::before, .glyphicon-envelope:before, .glyphicon-picture:before {
   margin-right: 6px;
   font-size: 12px;
 }

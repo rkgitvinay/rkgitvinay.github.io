@@ -30,31 +30,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <!-- header -->
 <div class="col-sm-3 col-md-2 sidebar">
-		 <div class="sidebar_top">
-			 <h1>Vinay Singh</h1> 
-			 <img src="images/img1.jpeg" alt=""/>
-		 </div>
-		<div class="details">
-			 <h3>PHONE</h3>
-			 <p>+91 8285846281</p>  	 
-			 <h3>EMAIL</h3>
-			 <p><a href="vinayksingh2@gmail.com">vinayksingh2@gmail.com</a></p>
-			 <address>
-			 <h3>ADDRESS</h3>
-			 <span>SF,H-44,Sector 41</span>
-			 <span>Noida,UP, 201003,</span>
-			 </address>
+	<div class="sidebar_top">
+		<h1>Vinay Singh</h1> 
+		<img src="images/img1.jpeg" alt=""/>
+	</div>
+   <div class="details">
+		<h3>PHONE</h3>
+		<p>+91 8285846281</p>  	 
+		<h3>EMAIL</h3>
+		<p><a href="vinayksingh2@gmail.com">vinayksingh2@gmail.com</a></p>
+		<h3>ADDRESS</h3>
+		<p>159, Sector 9</p>
+		<p>Gurugram, Haryana, 122006</p>
 
-			 <address>
-			 <h3>Links</h3>
-			 <span><a href="https://github.com/rkgitvinay" target="_blank">Github</a></span>
-			 <span><a href="https://www.linkedin.com/in/rkgitvinay/" target="_blank">LinkedIn</a></span>
-			 <!-- <span><a href="#">Facebook</a></span> -->
-			 <span><a href="https://twitter.com/rkgitvinay" target="_blank">Twitter</a></span>
-			 </address>
-			 
-		</div>
-		<div class="clearfix"></div>
+	   <!--  <h3>LINKS</h3>
+		<p> 
+			<span><a href="https://github.com/rkgitvinay" target="_blank">Github</a></span>
+			<span><a href="https://www.linkedin.com/in/rkgitvinay/" target="_blank">LinkedIn</a></span>
+			<span><a href="https://twitter.com/rkgitvinay" target="_blank">Twitter</a></span>
+		</p> -->
+		
+   </div>
+
+   <div class="social">
+	   <span><a href="https://www.github.com/rkgitvinay" target="_blank"><i class="fa fa-github"></i></a></span>
+	   <span><a href="https://www.linkedin.com/in/rkgitvinay/" target="_blank"><i class="fa fa-linkedin"></i></a></span>
+	   <span><a href="https://www.twitter.com/rkgitvinay" target="_blank"><i class="fa fa-twitter"></i></a></span>
+	   <!-- <span><a href="https://www.facebook.com/vinayksingh" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i></a></span> -->
+   </div>
+
+   <div class="clearfix"></div>
 </div>
 <!---->
 <link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
@@ -64,11 +69,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 <div class="content">
 		  <div class="details_header">
 			 <ul>
-				 <li><a href="index.html"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>Resume</a></li>
-				 
-				 <li><a href="contact.html"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Projects</a></li>
+				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
 
-				 <li><a href="contact.html"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>Blog</a></li>
+				<li><a href="https://docs.google.com/document/d/1d8rKg5d8m8kWkIJOfiAUWnthw2n8lZXtJsxw_hCG7_I/edit?usp=sharing" target="_blank"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>Resume</a></li>
+				 
+				 <!-- <li><a href="projects.html"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Projects</a></li> -->
 
 				 <li><a href="contact.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Email me</a></li>
 				
@@ -92,18 +97,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 </div>
 		 <div class="company contact-grid">
 			 <h3 class="clr1">Contact</h3>
-			 <form>	
-					<input type="text" value="Name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">					
-					<input type="text" value="Email" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Email';}">
-					<input type="text" value="Subject" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Subject';}">						
-					<textarea cols="77" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+			 <form action="https://mailthis.to/rkgitvinay" method="POST" encType="multipart/form-data">	
+					<input type="text" name="name" value="Name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">					
+					<input type="text" name="_replyto" value="Email" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Email';}">
+					<input type="hidden" name="_subject" value="Portfolio Contact form submitted" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Subject';}">						
+					<textarea cols="77" name="message" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+					<input type="hidden" name="_after" value="https://rkgitvinay.github.io/">
+					<input type="hidden" name="_confirmation" value="Your contact request has been submitted!">
 					<div class="send">
 						<input type="submit" value="Send" >
 					</div>
 			 </form>
-			 <!-- <div class="map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37494223.23909492!2d103!3d55!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x453c569a896724fb%3A0x1409fdf86611f613!2sRussia!5e0!3m2!1sen!2sin!4v1415776049771"></iframe>
-			</div> -->
 		 </div>
 		 
 	 </div>
